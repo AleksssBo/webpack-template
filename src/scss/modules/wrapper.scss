@@ -1,0 +1,18 @@
+.wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+
+    h1 {
+        font-size: 34px;
+        font-weight: bold;
+        border: 1px solid #000;
+        padding: 20px 0;
+        margin: 10px;
+        flex-basis: 100%;
+        color: $successColor;
+    }
+}
